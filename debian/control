@@ -1,0 +1,15 @@
+Source: salt-formula-magnum
+Maintainer: Ales Komarek <ales.komarek@tcpcloud.eu>
+Section: admin
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.tcpcloud.eu
+Vcs-Browser: https://github.com/tcpcloud/salt-formula-magnum
+Vcs-Git: https://github.com/tcpcloud/salt-formula-magnum.git
+
+Package: salt-formula-magnum
+Architecture: all
+Depends: ${misc:Depends}, salt-master, reclass
+Description: magnum salt formula
+ Install and configure magnum system.
