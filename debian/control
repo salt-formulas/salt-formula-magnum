@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/tcpcloud/salt-formula-magnum.git
 
 Package: salt-formula-magnum
 Architecture: all
-Depends: ${misc:Depends}, salt-master, reclass
+Depends: ${misc:Depends}
 Description: magnum salt formula
  Install and configure magnum system.
